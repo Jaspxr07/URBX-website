@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  font-family: BBH Bartle;
+  color: white;
+}
+.nav {
+  width: 1.5vw;
+  display: flex;
+  align-items: center;
+  background: black;
+  position: fixed;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: clamp(1rem, 5vw, 4rem);
+  padding-right: 10%;
+}
+
+.nav a {
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hamburger {
+  display: none;
+  size: 2em;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+}
+.homeimg {
+  max-width: fit-content;
+  position: absolute;
+  top: 12%;
+  z-index: -1;
+}
+
+.main1 h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.main1 p {
+  font-family: inter, sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.hometext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 13rem;
+}
+
+.df {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 20rem;
+  gap: 5%;
+}
+
+.df a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 7rem;
+  text-decoration: none;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+.bgi {
+    width: 100%;
+    position: fixed;
+    top: 100px;
+}
+
+.wrap {
+  padding: 3px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #6b7cff, #ff4fd8);
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    right: 2rem;
+  }
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+  }
+  #menu:checked + .hamburger + .navlinks {
+    display: flex;
+  }
+}
