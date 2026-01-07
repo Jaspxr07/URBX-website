@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   font-family: BBH Bartle;
@@ -217,7 +221,7 @@ body {
 .wrap2 {
   display: flex;
   justify-content: center;
-  max-width: 15rem;
+  max-width: 15.4rem;
   padding: 3px;
   border-radius: 20px;
   background: linear-gradient(45deg, #6b7cff, #ff4fd8);
@@ -257,6 +261,55 @@ body {
   font-size: 1rem;
 }
 
+.main4 {
+  padding-top: 2rem;
+}
+
+.contactform {
+  width: 160%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.field {
+  position: relative;
+  padding: 3px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #6b5cff, #ff4fd8);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  font-size: 0.9rem;
+}
+.field textarea {
+  height: 20rem;
+}
+.field:focus-within {
+  box-shadow: 0 0 20px rgba(255, 79, 216, 0.5);
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color:white;
+  font-family: BBH Bartle;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.6rem;
+}
 
 @media (max-width: 768px) {
   .hamburger {
