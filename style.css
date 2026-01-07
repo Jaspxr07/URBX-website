@@ -2,9 +2,10 @@ body {
   background-color: black;
   font-family: BBH Bartle;
   color: white;
+  margin: 0;
 }
 .nav {
-  width: 1.5vw;
+  width: 100%;
   display: flex;
   align-items: center;
   background: black;
@@ -43,7 +44,7 @@ body {
 }
 
 .main1 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 .main1 p {
@@ -57,7 +58,7 @@ body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 13rem;
+  top: 18rem;
 }
 
 .df {
@@ -65,7 +66,7 @@ body {
   flex-direction: row;
   justify-content: center;
   position: relative;
-  top: 20rem;
+  top: 30rem;
   gap: 5%;
 }
 
@@ -81,17 +82,181 @@ body {
   border-radius: 20px;
   font-size: 2rem;
 }
-.bgi {
-    width: 100%;
-    position: fixed;
-    top: 100px;
-}
 
 .wrap {
   padding: 3px;
   border-radius: 20px;
   background: linear-gradient(45deg, #6b7cff, #ff4fd8);
 }
+
+.main2 {
+  background-image: url(Mediafolder/features.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 2rem;
+}
+.listen {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+  justify-content: center;
+  gap: 10%;
+}
+.listen div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+  max-width: 40%;
+}
+
+.listen div h1 {
+  font-size: 4rem;
+}
+
+.listen div p {
+  font-family: inter, sans-serif;
+  font-size: 1.2em;
+}
+
+.chat {
+  display: flex;
+  flex-direction:row-reverse;
+  margin-top: 7rem;
+  justify-content: center;
+  gap: 10%;
+}
+.chat div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+  max-width: 40%;
+}
+
+.chat div h1 {
+  font-size: 4rem;
+}
+
+.chat div p {
+  font-family: inter, sans-serif;
+  font-size: 1.2em;
+}
+
+.lyriclab {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+  justify-content: center;
+  gap: 10%;
+}
+.lyriclab div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+  max-width: 40%;
+}
+
+.lyriclab div h1 {
+  font-size: 4rem;
+}
+
+.lyriclab div p {
+  font-family: inter, sans-serif;
+  font-size: 1.2em;
+}
+
+.btb {
+  display: flex;
+  flex-direction:row-reverse;
+  margin-top: 7rem;
+  justify-content: center;
+  gap: 10%;
+}
+.btb div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+  max-width: 40%;
+}
+
+.btb div h1 {
+  font-size: 4rem;
+}
+
+.btb div p {
+  font-family: inter, sans-serif;
+  font-size: 1.2em;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 15rem;
+}
+
+.back a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 5rem;
+  text-decoration: none;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.wrap2 {
+  display: flex;
+  justify-content: center;
+  max-width: 15rem;
+  padding: 3px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #6b7cff, #ff4fd8);
+  margin: auto;
+}
+
+.main3 {
+  padding-top: 2rem;
+}
+
+.downtext {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  font-size: 2rem;
+}
+
+.iosandroid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+  gap: 5%;
+}
+
+.iosandroid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 5rem;
+  text-decoration: none;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
 
 @media (max-width: 768px) {
   .hamburger {
