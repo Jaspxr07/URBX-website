@@ -31,6 +31,16 @@ body {
   text-align: center;
 }
 
+.nav a:hover {
+  font-size: 1.6vw;
+  color:#6b7cff;
+  text-shadow: 0 0 8px rgba(255, 77, 136, 0.8);
+}
+
+.nav a:active {
+  font-size: 1.4vw;
+}
+
 .hamburger {
   display: none;
   size: 2em;
@@ -85,6 +95,10 @@ body {
   color: white;
   border-radius: 20px;
   font-size: 2rem;
+}
+
+.df a:hover {
+  box-shadow:  0 0 15px rgba(255, 77, 136, 0.8);;
 }
 
 .wrap {
@@ -219,6 +233,10 @@ body {
   text-align: center;
 }
 
+.back a:hover {
+  box-shadow:  0 0 15px rgba(255, 77, 136, 0.8);;
+}
+
 .wrap2 {
   display: flex;
   justify-content: center;
@@ -261,6 +279,10 @@ body {
   color: white;
   border-radius: 20px;
   font-size: 1rem;
+}
+
+.iosandroid a:hover {
+  box-shadow:  0 0 15px rgba(255, 77, 136, 0.8);;
 }
 
 .main4 {
@@ -340,6 +362,10 @@ body {
   border-radius: 20px;
   font-size: 1rem;
   text-align: center;
+}
+
+.send a:hover {
+  box-shadow:  0 0 15px rgba(255, 77, 136, 0.8);
 }
 
 .send {
@@ -544,5 +570,5 @@ body {
     width: 95vw;
     margin-top: -350px;
   } 
-
+  
 }
