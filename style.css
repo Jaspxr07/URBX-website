@@ -177,6 +177,7 @@ body {
   display: flex;
   flex-direction:row-reverse;
   margin-top: 7rem;
+  margin-bottom: 5rem;
   justify-content: center;
   gap: 10%;
 }
@@ -266,7 +267,7 @@ body {
 }
 
 .contactform {
-  width: 160%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,23 +310,103 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 3.6rem;
+
 }
+
+.contactwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  width: 100%;
+}
+
+
+
 
 @media (max-width: 768px) {
   .hamburger {
     display: block;
-    right: 2rem;
+    position: absolute;
+    right: 15px;
   }
   .navlinks {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    background-color: black;
+    font-size: larger;
+    top: 85px;
     right: 0;
     width: 200px;
-    padding: 1rem;
+    padding: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    text-align: right;
+    margin: 0;
+  }
+  .nav a {
+    font-size: 1rem;
+    text-align: right;
+    
+
   }
   #menu:checked + .hamburger + .navlinks {
     display: flex;
+  }
+  .main1 h1 {
+  font-size: 7vw;
+  text-align: center;
+  margin: 10px;
+  }
+
+  .df a {
+  width: 15rem;
+  height: 5rem;
+  font-size: 1.2rem;
+  }
+
+  .df {
+  gap: 3vw;
+  }
+
+  .listen {
+    margin-top: 10rem;
+  }
+  .listen div h1 {
+    font-size: 2rem;
+  }
+  .listen div p {
+    font-size: 1rem;
+  }
+
+  .chat div h1 {
+    font-size: 2rem;
+  }
+  
+  .chat div p {
+    font-size: 1rem;
+  }
+
+  .lyriclab div h1 {
+    font-size: 2rem;
+  }
+  
+  .lyriclab div p {
+    font-size: 1rem;
+  }
+
+  .btb div h1 {
+    font-size: 2rem;
+  }
+  
+  .btb div p {
+    font-size: 1rem;
+  }
+  
+  .img{
+    width: 40vw;
   }
 }
