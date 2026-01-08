@@ -238,6 +238,7 @@ body {
   justify-content: center;
   margin-top: 15%;
   font-size: 2rem;
+  text-align: center;
 }
 
 .iosandroid {
@@ -409,4 +410,18 @@ body {
   .img{
     width: 40vw;
   }
+  .downtext {
+    margin-top: 15rem;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .iosandroid a {
+  width: 40vw;
+  height: 4rem;
+  font-size: 70%;
+  padding: 10px;
+  }
+
+  
 }
