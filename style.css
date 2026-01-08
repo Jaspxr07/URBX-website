@@ -324,6 +324,31 @@ body {
   width: 100%;
 }
 
+.contact img {
+  filter: grayscale(100%);
+}
+
+.send a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 5rem;
+  text-decoration: none;
+  background:linear-gradient(45deg, #6b5cff, #ff4fd8);
+  color: white;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+
 
 
 
@@ -423,5 +448,101 @@ body {
   padding: 10px;
   }
 
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact img {
+    z-index: -1;
+  }
   
+  .contactwrap {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 96vw;
+    margin-top: -200px;
+  } 
+}
+
+@media (max-width: 480px) {
+  
+  .homeimg {
+    position: absolute;
+    right: -500px;
+  }
+  
+  .df a {
+  width: 12rem;
+  height: 4rem;
+  font-size: 1rem;
+  }
+
+  .df {
+  gap: 1vw;
+  }
+  
+  .listen {
+    flex-direction: column;
+  }
+  .chat {
+    flex-direction: column;
+  }
+  .lyriclab {
+    flex-direction: column;
+  }
+  .btb {
+    flex-direction: column;
+  }
+  .main4 {
+    text-align: center;
+  }
+
+    .listen,
+  .chat,
+  .lyriclab,
+  .btb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .listen img,
+  .chat img,
+  .lyriclab img,
+  .btb img {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  .listen h1,
+  .chat h1,
+  .lyriclab h1,
+  .btb h1 {
+    text-align: center;
+  }
+  .main2 {
+    padding: 2rem 1rem;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  .listen img,
+  .lyriclab img {
+    transform: rotate(10deg);
+  }
+
+  .chat img, 
+  .btb img {
+    transform: rotate(-10deg);
+  }
+  .contactwrap {
+    width: 95vw;
+    margin-top: -350px;
+  } 
+
 }
